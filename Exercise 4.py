@@ -1,7 +1,7 @@
 #initalize variables
-principal = 1200
-rate_of_interest = 1.5/100
-time_period = 24
+principal = int(input("Enter the principal amount: "))
+rate_of_interest = (int(input("Enter the interest rate (%): ")))/100
+time_period = int(input("Enter the amount of months: "))
 
 #calculate interest
 interest_amount = principal*rate_of_interest*time_period
